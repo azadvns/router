@@ -1,0 +1,79 @@
+.left{
+    margin-left: 40%;
+    color: blue;
+}
+.cen1{
+    margin-left: 20%;
+}
+
+.col{
+    box-shadow: 5px 5px 10px #888888;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    background-color: antiquewhite;
+    border-color: lawngreen;
+    flex-wrap: wrap;
+    border-style: ridge;
+    
+}
+.col:hover{
+    background-color: aquamarine;
+}
+.gap{
+    margin-left: 20px;
+    /* margin-top: 30%; */
+    position: absolute;
+    top: 160px;
+    
+}
+
+.gap0{
+    margin-left: 10px;
+    width: 20%;
+}
+.gap1{
+    margin-left: 50px;
+    width: 20%;
+}
+.gap2{
+    margin-left: 70px;
+    width: 20%;
+}
+.radio1{
+    margin-left: 10px;
+}
+.radio2{
+    margin-left: 70px;
+}
+.radio3{
+    margin-left: 90px;
+}
+.gen{
+    margin-left: 10px;
+}
+.no{
+    width: 350px;
+    margin-left: 10px;
+}
+.pass{
+    width: 350px;
+    margin-left: 10px;
+}
+.sig{
+    margin-left: 150px;
+    width: 100px;
+    background-color: green;
+
+
+}
+.font{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.already{
+    margin-left: 30%;
+    color: blue;
+    cursor: pointer;
+}

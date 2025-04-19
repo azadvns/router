@@ -3,24 +3,19 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-// import Up from './components/Up';
-// import Lucknow from './components/Lucknow';
-// import Allahabad from './components/Allahabad';
-// import Banaras from './components/Banaras';
-// import India from './components/India';
-// import Karnataka from './components/Karnataka';
 
 
 import './App.css';
-import Sign from './components/Sign';
-import SignIn from './components/SignIn';
+import Facebook from './components/Facebook';
+import Account from './components/Account';
 
 function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/" element={<SignIn />} />
-        <Route path="/sign" element={<Sign />} />
+      <Route path="/" element={<Account />} />
+      <Route path="/facebook" element={<Facebook />} />
+        
         
       </Routes>
     </Router>
