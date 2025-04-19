@@ -1,0 +1,12 @@
+
+.col{
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
+.cen{
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
