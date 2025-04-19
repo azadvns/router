@@ -14,9 +14,11 @@ function Account(){
             <br></br><br></br>
             <button className='log' type='submit'>Log in</button>
             <br></br>
-            <h5 className='forget'>Forgotten account ? </h5>
-            {/* <br></br> */}
-            {/* <h2 className='font1'>Create new account */}
+            
+            <Link className='forget' to="/forget">Forgotten account ?</Link>
+            <br></br>
+            <br></br>
+            
                 <Link className='font1' to="/facebook">Create new account</Link>
             <br></br><br></br>
                 

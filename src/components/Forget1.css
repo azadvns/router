@@ -1,0 +1,28 @@
+
+.center{
+    margin-left: 30%;
+    box-shadow: 5px 5px 10px #888888;
+    width: 300px;
+    border-style: ridge;
+    background-color: antiquewhite;
+    border-color: aquamarine;
+}
+.center1{
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px #888888;
+}
+.font{
+    font-size: 12px;
+}
+.inp{
+    margin-left: 10px;
+    width: 270px;
+}
+.cencel{
+    margin-right: 40%;
+    position: absolute;
+    top: 165px;
+}
+.search{
+    margin-left: 170px;
+}
