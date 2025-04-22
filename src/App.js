@@ -1,30 +1,24 @@
 
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-
-
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import UserProfile from './components/UserProfile';
+import SearchPage from './components/Search';
 
 import './App.css';
-import Facebook from './components/Facebook';
-import Account from './components/Account';
-import Forget from './components/Forget';
-
+ 
 function App() {
   return (
     <Router>
-      <Routes>
-      <Route path="/" element={<Account />} />
-      <Route path="/facebook" element={<Facebook />} />
-      <Route path='/forget' element={<Forget></Forget>}></Route>
-        
-        
-      </Routes>
-    </Router>
-
-    
-
-
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/search" element={<SearchPage />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/user/:id" element={<UserProfile />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </Router>
   );
 }
 
