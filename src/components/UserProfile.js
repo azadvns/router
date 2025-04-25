@@ -2,7 +2,7 @@ import {  NavLink, useParams } from 'react-router-dom';
 function UserProfile() {
   const { id } = useParams();
   return <div> <h1>Welcome to the UserProfile Page</h1>
-  <img src="pic/lucknow.jpeg"></img>
+  
 
  
     <h2>Viewing profile of user: {id}</h2>;
